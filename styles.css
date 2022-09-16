@@ -3,8 +3,12 @@
     margin: 0%;
 }
 body{
-    background-color:burlywood;    
-    text-align: center;    
+    text-align: center;
+    background-repeat: no-repeat;    
+    padding-bottom: 5rem;
+    background-image:linear-gradient(yellow,yellow,floralwhite,yellow);    
+    
+    
 }
 
 h1{
@@ -13,13 +17,12 @@ h1{
     display:block;
     padding:2rem;
     color:rgb(136, 85, 27);
-
+    background-image: repeating-linear-gradient(red,yellow);    
 };
 
 
 
-.container {
-   
+.container {  
     padding-top: 1rem;
     padding-bottom: 4rem;
 
@@ -34,14 +37,13 @@ label{
 input{
     width: 15rem;
     height: 4vh;
-    
     align-items: center;
+   
 }
 
 button{
     
-    display: block;
-    margin: auto;
+    margin:1rem;
     width: 10rem;
     height: 4vh;
     background-color:lightgoldenrodyellow;
@@ -52,20 +54,21 @@ button{
 
 #output-box{
     display: block;
-    padding: 1rem;
-    padding-bottom: 3rem;
+    padding: 2rem;
+    font-weight: bold;
 }
 
 footer{
-    padding-top: 1rem;
-    border-bottom:dashed  black; 
-    border-top:solid  black; 
-
-    background-color:tomato;
+    
+    background-image: linear-gradient( #fef08a,yellow,red) ;   
+    position:absolute;
+    bottom: 0%;
+    left: 0%;
+    right:0%;
 }
 
 footer p{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .list-item-inline{
@@ -73,8 +76,6 @@ footer p{
     height:40px;
     width: 40px;
     padding: 1rem;
-    padding-bottom: 3rem;
-
-    
+   
 
 }
